@@ -1,2 +1,2 @@
 # NutriCare
-## Our Personalized Diet Recommender System
+## Our Personalized Diet Recommender System.
