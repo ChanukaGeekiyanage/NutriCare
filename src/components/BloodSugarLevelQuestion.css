@@ -1,0 +1,114 @@
+/* BloodSugarLevelQuestion.css */
+.body {
+  background-color: #000000;
+
+  background-size: cover;
+  justify-content: center;
+}
+.blood-sugar-question-container {
+  background-color: #000000;
+
+  background-size: cover;
+  justify-content: center;
+}
+
+.blood-sugar-question-container h1 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #c4b7b7;
+}
+.blood-sugar-question-container h3 {
+  font-size: 18px;
+  margin-bottom: 45px;
+  font-style: italic;
+  color: #c4b7b7;
+}
+
+.sugar-level-options {
+  gap: 10px;
+
+  font-size: 12px;
+}
+
+.centered-sugar-level-row {
+  display: flex;
+
+  gap: 20px;
+}
+
+.sugar-level-option {
+  cursor: pointer;
+}
+
+.sugar-level-option input[type="radio"] {
+  margin-right: 10px;
+}
+
+.sugar-level-option.selected {
+  background-color: rgb(67, 159, 104);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.selected {
+  background-color: rgb(68, 128, 82);
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.navigation-buttons1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.navigation-buttons2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.navigation-button {
+  background-color: #554480;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px; /* Add margin between buttons */
+}
+
+.navigation-button:hover {
+  background-color: #0e0b16;
+}
+.logo-image {
+  height: 150px;
+  width: 250px;
+  position: relative;
+  bottom: 10px;
+  left: 1225px;
+}
+
+.Db {
+  height: 420px;
+  width: 420px;
+  position: absolute;
+  bottom: 90px;
+  left: 40px;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.home-button img {
+  width: 30px;
+  height: 30px;
+}
+.sugar-level-options-container {
+  color: #0e0b16;
+  background-color: #1fa130; /* Set the background color to white */
+  padding: 20px; /* Add padding to create space around the options */
+  border-radius: 10px; /* Add rounded corners to the container */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
