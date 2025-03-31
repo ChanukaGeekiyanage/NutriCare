@@ -1,0 +1,92 @@
+/* BMIQuestion.css */
+
+/* Common styles for all screen sizes */
+.body-containerb {
+  background-image: url("../images/gb.jpeg");
+  background-size: cover;
+  justify-content: center;
+}
+
+.bmi-question-container {
+  flex-direction: column;
+  padding: 5% 10%;
+  width: 80vw;
+  max-width: 1300px;
+  height: 180px;
+  color: #e0e0e0;
+}
+
+.bmi-question-column {
+  flex: 1;
+  align-items: center;
+  padding: 10px;
+  font-size: 21px;
+  object-fit: cover;
+}
+
+.bmi-options-column {
+  padding: 15px;
+  margin-left: 8px;
+  font-size: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-height: 500px;
+  margin-top: -50px;
+}
+.next-button-containerb {
+  display: flex;
+  justify-content: center;
+  margin-top: 345px;
+}
+
+/* Responsive styles based on screen size */
+
+/* For screens with a maximum width of 480px (small laptops and tablets) */
+@media (max-width: 480px) {
+  .bmi-question-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .bmi-question-column,
+  .bmi-options-column {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+/* For screens with a maximum width of 768px (laptops and desktops) */
+@media (min-width: 768px) {
+  .bmi-question-container {
+    margin-top: 50px;
+  }
+
+  .bmi-option {
+    margin-top: 20px;
+  }
+
+  .bmi-option label {
+    font-size: 20px;
+  }
+}
+
+/* For screens with a maximum width of 360px (typical mobile phone screens) */
+@media (max-width: 360px) {
+  .bmi-question-column,
+  .bmi-options-column {
+    font-size: 18px;
+  }
+  .next-button-containerg {
+    margin-top: 20px; /* Adjust margin for mobile screens */
+  }
+
+  .next-buttong {
+    padding: 20px 40px; /* Adjust padding for mobile screens */
+    font-size: 20px; /* Adjust font size for mobile screens */
+  }
+}
+
+/* Additional responsive styles can be added based on your specific requirements. */
